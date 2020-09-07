@@ -1,5 +1,5 @@
 # greeting-card-system
-Server rest api for greeting card system.
+Server rest api for greeting card system. Implemented with postgres SQL database.
 
 Deployed on: https://greeting-cards-system.herokuapp.com/swagger-ui.html#!/app-controller/addCardTemplateUsingPUT
 
