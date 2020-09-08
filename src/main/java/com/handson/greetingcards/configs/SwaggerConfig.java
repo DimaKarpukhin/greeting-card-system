@@ -1,4 +1,4 @@
-package com.handson.greetingcards.config;
+package com.handson.greetingcards.configs;
 
 
 import org.springframework.context.annotation.Bean;

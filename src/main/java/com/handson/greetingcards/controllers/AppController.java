@@ -1,4 +1,4 @@
-package com.handson.greetingcards.controller;
+package com.handson.greetingcards.controllers;
 
 import com.handson.greetingcards.entities.CardOrder;
 import com.handson.greetingcards.entities.CardTemplate;
@@ -18,11 +18,7 @@ public class AppController {
 
     @Autowired
     CardTemplateService cardTemplateService;
-//    @RequestMapping(value = "/hello", method = RequestMethod.GET)
-//    public String sayHello()
-//    {
-//        return "Hello!";
-//    }
+
     @RequestMapping(value = "/newCardTemplate", method = RequestMethod.PUT)
     public ResponseEntity<Void> addCardTemplate(@RequestBody CardTemplate cardTemplate) {
         cardTemplateService.saveTemplate(cardTemplate);
